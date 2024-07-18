@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="tushar" class="com.springdemo.Painter">
+<constructor-arg ref="sqr"></constructor-arg>
+
+</bean>
+<bean id="sqr" class="com.springdemo.Square">
+
+</bean>
+<bean id="tr" class="com.springdemo.Trangle"></bean>
+
+</beans>
